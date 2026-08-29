@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Canal+ Assistance 24/7 à Ebolowa - réabonnement, installation, dépannage et assistance technique.">
+<title>Canal+ Assistance 24/7 | Ebolowa</title>
+<style>
+:root{--dark:#07090d;--card:#11151d;--gold:#f3c64d;--white:#fff;--muted:#aeb6c3;--green:#19c37d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--dark);color:var(--white);line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(7,9,13,.92);backdrop-filter:blur(12px);border-bottom:1px solid #222733}
+nav{height:70px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:900;font-size:19px;letter-spacing:-.5px}.logo span{color:var(--gold)}
+.navlinks{display:flex;gap:25px;color:#d8dde6;font-size:14px}.navlinks a:hover{color:var(--gold)}
+.menu{display:none;background:none;border:0;color:white;font-size:26px}
+.hero{padding:90px 0 75px;background:radial-gradient(circle at 80% 20%,#24220f 0,transparent 35%),linear-gradient(135deg,#080a10,#0d1119)}
+.badge{display:inline-block;padding:7px 13px;border:1px solid #4b4021;border-radius:999px;color:var(--gold);font-size:13px;background:#15130c}
+h1{font-size:clamp(42px,7vw,76px);line-height:.98;letter-spacing:-3px;margin:22px 0}
+.hero p{max-width:650px;color:var(--muted);font-size:18px}
+.buttons{display:flex;flex-wrap:wrap;gap:13px;margin-top:30px}
+.btn{padding:14px 20px;border-radius:12px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.primary{background:var(--gold);color:#111}.secondary{border:1px solid #303744;background:#151a23}
+section{padding:75px 0}.section-title{font-size:38px;margin:0 0 10px}.section-sub{color:var(--muted);margin:0 0 35px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid #232936;border-radius:18px;padding:25px;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#514522}
+.icon{font-size:30px}.card h3{margin:12px 0 7px}.card p{color:var(--muted);margin:0}
+.cta{background:linear-gradient(120deg,#17140a,#10151d);border:1px solid #3b3522;border-radius:24px;padding:42px;display:flex;justify-content:space-between;gap:30px;align-items:center}
+.cta p{color:var(--muted);margin-bottom:0}.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.info{background:var(--card);padding:25px;border-radius:18px;border:1px solid #232936}
+.info strong{display:block;margin-bottom:5px}.info span{color:var(--muted)}
+footer{padding:35px 0;border-top:1px solid #222733;color:#8e97a6;font-size:13px}
+.whatsapp{position:fixed;right:20px;bottom:20px;width:58px;height:58px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 8px 30px #0008;z-index:30}
+@media(max-width:760px){
+.navlinks{display:none;position:absolute;top:70px;left:0;right:0;background:#090b10;padding:18px 4%;flex-direction:column;border-bottom:1px solid #222733}
+.navlinks.open{display:flex}.menu{display:block}
+.hero{padding:65px 0}.grid,.contact{grid-template-columns:1fr}section{padding:55px 0}
+.cta{display:block;padding:28px}.cta .btn{margin-top:20px}h1{letter-spacing:-2px}
+}
+</style>
+</head>
+<body>
+<header>
+<nav class="container">
+  <a class="logo" href="#">CANAL+ <span>ASSISTANCE 24/7</span></a>
+  <button class="menu" onclick="toggleMenu()" aria-label="Menu">☰</button>
+  <div class="navlinks" id="navlinks">
+    <a href="#services">Services</a><a href="#boutique">Boutique</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+</header>
+
+<main>
+<section class="hero">
+<div class="container">
+  <span class="badge">📍 Carrefour New Bell — Ebolowa</span>
+  <h1>Votre TV.<br><span style="color:var(--gold)">Notre assistance.</span></h1>
+  <p>Réabonnement, installation, dépannage et assistance technique. Besoin d'aide ? Contactez-nous directement par WhatsApp ou rendez-vous à notre boutique.</p>
+  <div class="buttons">
+    <a class="btn primary" href="https://wa.me/696150308?text=Bonjour%2C%20je%20souhaite%20une%20assistance%20Canal%2B." target="_blank">💬 WhatsApp</a>
+    <a class="btn secondary" href="tel:+237696150308">📞 Appeler</a>
+    <a class="btn secondary" href="#services">Voir nos services ↓</a>
+  </div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+  <h2 class="section-title">Nos services</h2>
+  <p class="section-sub">Une assistance simple et rapide pour vos besoins TV et techniques.</p>
+  <div class="grid">
+    <article class="card"><div class="icon">📺</div><h3>Réabonnement</h3><p>Besoin de renouveler votre abonnement ? Contactez-nous pour être accompagné.</p></article>
+    <article class="card"><div class="icon">🛠️</div><h3>Dépannage</h3><p>Problème d'image, de signal ou de réception ? Nous vous aidons à identifier la panne.</p></article>
+    <article class="card"><div class="icon">📡</div><h3>Installation</h3><p>Installation et réglage de votre parabole et de votre équipement TV.</p></article>
+    <article class="card"><div class="icon">👨🏾‍🔧</div><h3>Intervention</h3><p>Possibilité d'organiser une intervention technique selon votre besoin.</p></article>
+    <article class="card"><div class="icon">🎬</div><h3>Programmation</h3><p>Assistance pour la configuration de vos services et applications compatibles.</p></article>
+    <article class="card"><div class="icon">💬</div><h3>Assistance WhatsApp</h3><p>Vous ne pouvez pas vous déplacer ? Écrivez-nous directement depuis votre téléphone.</p></article>
+  </div>
+</div>
+</section>
+
+<section id="boutique">
+<div class="container">
+  <div class="cta">
+    <div><h2 style="margin:0;font-size:32px">Passez à la boutique</h2>
+    <p>Nous sommes situés à <strong style="color:white">Carrefour New Bell, Ebolowa</strong>, en face de la station PETROLEUM.</p></div>
+    <a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Carrefour+New+Bell+Ebolowa" target="_blank">📍 Itinéraire</a>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+  <h2 class="section-title">Contactez-nous</h2>
+  <p class="section-sub">Choisissez le moyen qui vous convient.</p>
+  <div class="contact">
+    <div class="info"><strong>💬 WhatsApp</strong><span>+237 696 150 308</span><br><br><a class="btn primary" href="https://wa.me/696150308" target="_blank">Écrire sur WhatsApp</a></div>
+    <div class="info"><strong>📞 Téléphone</strong><span>+237 696 150 308</span><br><br><a class="btn secondary" href="tel:+237696150308">Appeler maintenant</a></div>
+    <div class="info"><strong>📍 Adresse</strong><span>Carrefour New Bell, Ebolowa — en face de PETROLEUM</span></div>
+    <div class="info"><strong>🕐 Assistance</strong><span>Contact en ligne 24/7. Les horaires d'ouverture de la boutique peuvent varier.</span></div>
+  </div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">
+  <div><strong>CANAL+ ASSISTANCE 24/7</strong> — Ebolowa</div>
+  <p>Ce site présente un service d'assistance indépendant. CANAL+ est une marque de son propriétaire respectif.</p>
+  <div>© <span id="year"></span> Canal+ Assistance 24/7. Tous droits réservés.</div>
+</div>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/696150308?text=Bonjour%2C%20j%27ai%20besoin%20d%27une%20assistance." target="_blank" aria-label="WhatsApp">◉</a>
+<script>
+function toggleMenu(){document.getElementById('navlinks').classList.toggle('open')}
+document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navlinks').classList.remove('open')));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
